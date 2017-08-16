@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Wonderful To Do List
+  </title>
+</head>
+<body>
+  <h1>To Do List</h1>
+
+  <form method="post" action="/GiveMeList">
+    <input type="text" name="AddList">
+    <input type="submit" value="Add Todo">
+  </form>
+
+
+
+  {{#todoList}}
+    <ul>
+      <li>
+        <input type="checkbox">{{ . }}</input>
+      </li>
+    </ul>
+  {{/todoList}}
+
+</body>
+</html>
