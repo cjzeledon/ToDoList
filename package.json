@@ -1,0 +1,16 @@
+{
+  "name": "todolistdaily",
+  "version": "1.0.0",
+  "description": "Creating a To Do List for the daily project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Claudia Zeledon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mustache-express": "^1.2.5"
+  }
+}
