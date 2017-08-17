@@ -4,6 +4,7 @@
   <title>
     Wonderful To Do List
   </title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <body>
   <h1>To Do List</h1>
@@ -13,15 +14,11 @@
     <input type="submit" value="Add Todo">
   </form>
 
-
-
   {{#todoList}}
-    <ul>
-      <li>
-        <input type="checkbox">{{ . }}</input>
-      </li>
-    </ul>
+    <p><button>Mark as Complete</button> {{ . }}</p>
   {{/todoList}}
+
+  <h1>Completed To Do</h1>
 
 </body>
 </html>
